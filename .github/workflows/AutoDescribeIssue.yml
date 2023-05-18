@@ -1,15 +1,17 @@
+name: auto-describe-issue
+
 on:
   issues:
     types:
       - labeled
 
 jobs:
-  test:
+  AutoDescribe:
     if: github.event.label.name == 'auto-described'
     runs-on: ubuntu-latest
-    name: A test job to check IkarisGPT
+    name: IkarisGPT Auto Describe Issue
     steps:
-      - name: IkarisGPT Action step
+      - name: IkarisGPT Action Step
         id: ikaris
         uses: devAyushDubey/Ikaris-GPT@v1.0
         with:
