@@ -1,0 +1,24 @@
+{
+  "name": "ikaris-gpt",
+  "version": "1.0.0",
+  "description": "Ikaris GPT is a GPT 3.5-Turbo based GitHub Action for automatic issue description generation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devAyushDubey/Ikaris-GPT.git"
+  },
+  "author": "Ayush Dubey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devAyushDubey/Ikaris-GPT/issues"
+  },
+  "homepage": "https://github.com/devAyushDubey/Ikaris-GPT#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "openai": "^3.2.1"
+  }
+}

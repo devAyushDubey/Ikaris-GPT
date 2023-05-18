@@ -1,0 +1,19 @@
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  test:
+    if: github.event.label.name == 'auto-described'
+    runs-on: ubuntu-latest
+    name: A test job to check IkarisGPT
+    steps:
+      - name: IkarisGPT Action step
+        id: ikaris
+        uses: devAyushDubey/Ikaris-GPT@v1.0
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+      # Use the output from the `hello` step
+      - name: Get the output message
+        run: echo "${{ steps.ikaris.outputs.message }}"
