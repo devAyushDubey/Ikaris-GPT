@@ -1,5 +1,5 @@
 name: 'IkarisGPT'
-description: 'Auto describe issues using ChatGPT'
+description: 'Auto describe issues with GPT powered IkarisGPT. Just write issue title, IkarisGPT does the rest.'
 inputs:
   openai-api-key:  # id of input
     description: 'API Key for OpenAI'
