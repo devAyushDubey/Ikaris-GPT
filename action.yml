@@ -15,3 +15,6 @@ outputs:
 runs:
   using: 'node16'
   main: 'index.js'
+branding:
+  icon: 'award'
+  color: 'green'
