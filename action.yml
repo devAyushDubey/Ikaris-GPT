@@ -16,5 +16,5 @@ runs:
   using: 'node16'
   main: 'index.js'
 branding:
-  icon: 'italic'
+  icon: 'zap'
   color: 'blue'
