@@ -1,4 +1,4 @@
-name: auto-describe-issue
+name: IkarisGPT Auto-Describe-Issue
 
 on:
   issues:
