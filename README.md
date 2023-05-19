@@ -1,7 +1,7 @@
 ![IkarisGPT](https://github.com/devAyushDubey/Ikaris-GPT/assets/33064931/e1f3f73d-c1ab-44a2-9b61-ffdf96a60c26)
 <br>
 # IkarisGPT - Auto-Describe issues with ChatGPT 🤖
-[![IkarisGPT Auto-Describe-Issue](https://github.com/devAyushDubey/Ikaris-GPT/actions/workflows/AutoDescribeIssue.yml/badge.svg)](https://https://github.com/devAyushDubey/Ikaris-GPT/actions/workflows/AutoDescribeIssue.yml) [![IkarisGPT](https://img.shields.io/badge/Marketplace-IkarisGPT-blue?logo=github)](https://github.com/marketplace/actions/ikarisgpt)
+[![IkarisGPT Auto-Describe-Issue](https://github.com/devAyushDubey/Ikaris-GPT/actions/workflows/AutoDescribeIssue.yml/badge.svg)](https://github.com/devAyushDubey/Ikaris-GPT/actions/workflows/AutoDescribeIssue.yml) [![IkarisGPT](https://img.shields.io/badge/Marketplace-IkarisGPT-blue?logo=github)](https://github.com/marketplace/actions/ikarisgpt)
 
 **Just write issue titles and let IkarisGPT do the rest.** <br>
 IkarisGPT is a OpenAI API based Github Action that provides bootstrap issue templates with issue-specific details in a markdown format, saving time that goes in formatting and writing general information.
