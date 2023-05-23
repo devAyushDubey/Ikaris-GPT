@@ -28,7 +28,7 @@ jobs:
     steps:
       - name: IkarisGPT Action Step
         id: ikaris
-        uses: devAyushDubey/Ikaris-GPT@v1.0
+        uses: devAyushDubey/Ikaris-GPT@v1.0.0-beta
         with:
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
       - name: Get the output message
@@ -52,7 +52,7 @@ jobs:
     steps:
       - name: IkarisGPT Action Step
         id: ikaris
-        uses: devAyushDubey/Ikaris-GPT@v1.0
+        uses: devAyushDubey/Ikaris-GPT@v1.0.0-beta
         with:
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
           prompt: "Generate an issue description for an issue titled ${{ github.event.issue.title }}"
